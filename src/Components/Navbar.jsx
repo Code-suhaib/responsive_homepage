@@ -8,7 +8,7 @@ function MyNavbar(){
         <>
             <Navbar bg="warning"  expand="lg"    >
                 <Container>
-                    <Navbar.Brand href="/"> My Website</Navbar.Brand>
+                    <Navbar.Brand href="/"><i>COFFEE HUB</i></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto text-dark">

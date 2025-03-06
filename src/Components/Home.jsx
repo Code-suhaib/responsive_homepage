@@ -2,6 +2,8 @@ import React from "react";
 import "./home.css";
 import { Container, Button } from "react-bootstrap";
 import Testimonials from "./Testinomial";
+import Crousel from "./Crousel";
+import CoffeeCard from "./Cards";
 
 
 function Home() {
@@ -16,6 +18,8 @@ function Home() {
             </Container>
         </div>
         <Testimonials/>
+        <CoffeeCard/>
+        <Crousel/>
         </>
     );
 }
