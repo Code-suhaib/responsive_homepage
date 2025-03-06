@@ -4,7 +4,6 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 function CoffeeCard() {
-  // Array of coffee items
   const coffeeList = [
     { name: "Cappuccino", image: "/Cappuccino.jpg", description: "A blend of espresso, steamed milk, and frothy foam." },
     { name: "Espresso", image: "/Espresso.jpg", description: "Strong and rich coffee with no milk." },
