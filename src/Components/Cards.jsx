@@ -20,7 +20,7 @@ function CoffeeCard() {
           <Card.Body>
             <Card.Title>{coffee.name}</Card.Title>
             <Card.Text>{coffee.description}</Card.Text>
-            <Button variant="primary">Order Now</Button>
+            <Button variant="warning">Order Now</Button>
           </Card.Body>
         </Card>
       ))}
