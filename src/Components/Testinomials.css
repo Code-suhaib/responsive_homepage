@@ -1,0 +1,17 @@
+
+.testimonials-section {
+    background-color: #5c4033;
+    color: #fff; 
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial-card {
+    background-color: #8b5a2b; 
+    border: none;
+    color: white;
+}
+
+.testimonial-card img {
+    border: 3px solid white; 
+}
