@@ -16,7 +16,7 @@ function CoffeeCard() {
   return (
     <div className="coffee-container">
       {coffeeList.map((coffee, index) => (
-        <Card key={index} style={{ width: "18rem", margin: "10px" }}>
+        <Card  className="coffee-card"    key={index} style={{ width: "18rem", margin: "10px" }}>
           <Card.Img variant="top" src={coffee.image} alt={coffee.name} />
           <Card.Body>
             <Card.Title>{coffee.name}</Card.Title>
